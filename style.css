@@ -1,15 +1,30 @@
+
 body {
-    background-image: url("http://icanbecreative.com/resources/files/articles/40-high-resolution-wallpapers-for-minimalist-lovers/sources/everest-minimalist-wallpaper-blue.png");
+    background-image: url(everest-minimalist-wallpaper-blue.png);
     background-size: cover;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4 {
-    color: crimson;
-    text-align: -webkit-left;
-    text-shadow: 2px 2px 3px black;
-    line-height: 1rem;
-    font-family: "bold", sans-serif;
+h1 {
+    color: darkslateblue;
+    line-height: 2rem;
+    font-family: 'Montserrat', Serif, sans-serif;
+}
+
+h2 {
+    color: darkslateblue;
+    line-height: 2rem;
+    font-family: 'Nunito', Serif, sans-serif;
+}
+
+h3 {
+    color: darkslateblue;
+    line-height: 2rem;
+    font-family: 'Cabin', Serif, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
 }
 
 
@@ -20,10 +35,12 @@ h1, h2, h3, h4 {
     margin: auto;
 }
 
-#circle {
-    color: crimson;
-    font-size: 40px;
+.formatting {
+    font-size: 25px;
+    line-height: 2em;
+    color: darkslateblue;
 }
+
 
 .container {
     background: linear-gradient(to right, #66ccff, #ff4d94);
