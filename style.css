@@ -4,11 +4,14 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1 {
+h1, h2, h3, h4 {
     color: crimson;
-    text-align: center;
+    text-align: -webkit-left;
     text-shadow: 2px 2px 3px black;
+    line-height: 1rem;
+    font-family: "bold", sans-serif;
 }
+
 
 .square {
     width: 100px;
@@ -27,10 +30,6 @@ h1 {
     box-shadow: 3px 5px 3px black;
 }
 
-h2 {
-    color: rgb(5, 76, 255);
-    text-shadow: 1px 1px 3px darkblue;
-}
 
 .borderImg {
     border: 2px solid red;
@@ -46,3 +45,4 @@ ul li {
 ul > li {
     color: red;
 }
+
