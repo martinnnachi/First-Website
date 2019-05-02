@@ -1,0 +1,48 @@
+body {
+    background-image: url("http://icanbecreative.com/resources/files/articles/40-high-resolution-wallpapers-for-minimalist-lovers/sources/everest-minimalist-wallpaper-blue.png");
+    background-size: cover;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: crimson;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #442fff;
+    margin: auto;
+}
+
+#circle {
+    color: crimson;
+    font-size: 40px;
+}
+
+.container {
+    background: linear-gradient(to right, #66ccff, #ff4d94);
+    box-shadow: 3px 5px 3px black;
+}
+
+h2 {
+    color: rgb(5, 76, 255);
+    text-shadow: 1px 1px 3px darkblue;
+}
+
+.borderImg {
+    border: 2px solid red;
+}
+
+/*makes changes to every list under the unordered list*/
+ul li {
+    color: darkblue;
+    font-size: 20px;
+}
+
+/*Only makes changes one level deep*/
+ul > li {
+    color: red;
+}
